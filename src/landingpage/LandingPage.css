@@ -1,0 +1,53 @@
+/* LandingPage.css */
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.landing-content {
+  width: 65vw; /* Slightly larger width */
+  max-width: 850px;
+  height: 70vh; /* Larger height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  
+  /* Background Image */
+  background-image: url('/public/insta.jpeg'); /* Adjust if necessary */
+  background-size: 100% 100%; /* Ensures the image is fully fitted */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-text {
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better readability */
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.landing-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.enter-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.enter-button:hover {
+  background-color: #ff4f4f;
+}

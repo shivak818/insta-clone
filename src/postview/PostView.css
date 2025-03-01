@@ -1,0 +1,129 @@
+/* PostView.css */
+.post-view-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Header */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    position:relative;
+
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.camera-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Posts Container */
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Individual Post Card */
+.post-card {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Post Header */
+.post-card .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.user-info h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.user-info p {
+    font-size: 12px;
+    color: #777;
+    margin: 2px 0 0;
+}
+
+.more-options {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Post Image */
+.post-image-container {
+    width: 100%;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Post Footer */
+.post-footer {
+    padding: 10px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.like-button,
+.share-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #555;
+}
+
+.likes-count {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #777;
+}
+
+.post-description {
+    font-size: 14px;
+    margin-top: 5px;
+}
